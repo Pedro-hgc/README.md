@@ -1,22 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Minha Primeira Página</title>
+    <meta charset="UTF-8">
+    <title>Sobre mim</title>
+    <style>
+        body{
+            margin: 40px;
+            font-family: Arial, sans-serif;
+            background-color:#b5d1d2;
+        }
+        .container{
+            padding: 20px;
+            color: rgb(59, 195, 29);
+            background-color: #df0f0f;
+            border-radius: 100px;
+        }
+        .container-custom{
+            margin-top: 20px;
+        }
+        #nome-custom{
+            font-weight: bold;
+            font-size: 50px;
+            text-align: center;
+            color: rgb(100, 74, 202);
+        }
+        .foto {
+            width: 200px;
+            border-radius: 50%;
+            border: 3px solid #2c3e50;
+            padding: 5px;
+            display: block;
+            margin: auto;
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            border-radius: 12px;
+            border: none;
+            color: rgb(23, 37, 195);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .titulo {
+            color: #2c3e50;
+            text-align: center;
+        }
+    </style>
 </head>
-<body>
-    <h1>Sobre mim</h1>
+
+<body >
+    <h1 class="titulo">Sobre mim</h1>
+    <h2 id="nome-custom">Olá meu nome é Pedro Henrique Gomes de Campos</h2>
+    <h3>Sou aluno do curso de Ciência da Computação na UFOP</h3>
+    <h4>Estou atualmente no 6º período, com previsão de formatura em Dez/2027</h4>
     <img src="https://github.com/Pedro-hgc.png" 
          alt="Foto de perfil" 
-         width="200" 
-         style="border-radius: 50%;">
-    <p>Meu nome é Pedro Campos</p>
-    
+         class="foto">
+    <p id="nome-custom">Meu nome é Pedro Campos</p>
+    <h2>Formação Acadêmica</h2>
+    <ul>
+        <li>Ciência da Computação       – Universidade Federal de Ouro Preto (UFOP) Previsão de formatura: Dez/2027</li>
+        <li>Sistemas para Internet      – Faculdade Pitágoras Concluído: Dez/2025</li>
+        <li>Administração de Empresas       – Universidade FUMEC Concluído: Dez/2012</li>
+    </ul>
     <h2>Meus interesses</h2>
     <ul>
         <li>Programação</li>
         <li>Banco de Dados</li>
         <li>Geoprocessamento</li>
+        <li>Desenvolvimento WEB</li>
+        <li>Gestão de Projetos</li>
     </ul>
-    
+    <h2>Experiências Profissionais</h2>
+    <ol>        
+        <li>Atividades Empreendedoras Autônomas (Restaurante e Lanchonete)
+            <ul>
+                <li>Gestão integral, administrativa e financeira do modelo de negócios em ramo alimentício, englobando liderança
+                    direta de equipes e atendimento ao público em escala
+                </li>
+                <li>Planejamento de compras operacionais, coordenação de estoques e ampla negociação com
+                    fornecedores 
+                </li>
+                <li>Responsabilidade sobre rotinas fiscais e controle rigoroso de fluxos de caixa e conciliação de contas </li>        
+            </ul>
+        </li>
+        <p> </p>
+        <li>Barão Bebidas
+            <ul>
+                <li>Gestão de relacionamento comercial direto com carteiras ativas de clientes corporativos e fornecedores do
+                    setor.
+                </li>
+                <li>
+                    Processamento técnico de faturamento, emissão de ordens de vendas, notas fiscais e documentos de
+                    cobrança bancária.
+                </li>
+                <li>Supervisão de pós-venda e execução de estratégias de prospecção comercial.
+                </li>
+            </ul>
+            <p> </p>
+        <li>Doutor dos Fogões
+            <ul>
+                <li>
+                    Recebimento de ordens de serviços, classificação técnica de prioridades e distribuição/supervisão de
+                    demandas para equipes de campo.
+                </li>
+                <li>
+                    Atendimento especializado ao cliente focado em pós-venda, mediação de conflitos e resoluções de termos de
+                    garantia.
+                </li>
+                <li>
+                    Gestão de estoque corporativo, controle de fluxos de caixa internos e vendas corporativas directas no setor de
+                    seminovos    
+                </li>
+            </ul>
+        </li>
+        </li>
+    </ol>
+    <div class="container container-custom">
+        <button class="button" link="https://wa.me/5531998276626">Contato 31-998276626</button>
+               
+    </div>
+    <div class="container container-custom">
+        <button link="mailto:pedro.hgc@aluno.ufio.edu.br">E-mail</button>
+    </div>
+    <div class="container container-custom">
+        Endereço: Ouro Preto, MG
+    </div>
+
 </body>
 </html>
